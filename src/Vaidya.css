@@ -1,0 +1,63 @@
+.vaidya {
+  height: 100vh;
+  background-color: #fcfdfe;
+  overflow-x: hidden;
+}
+.vaidyaTop {
+  position: sticky;
+  border-bottom: 1px solid rgb(224, 224, 224);
+  width: 100%;
+  text-decoration: none !important;
+  color: rgb(32, 32, 32);
+  overflow: hidden;
+  height: 10vh;
+}
+.vaidyaBottom {
+  height: 90vh;
+}
+.vaidyaBottom > iframe {
+  width: 100%;
+  height: 105vh !important;
+  overflow: hidden;
+}
+
+.vaidyaTop > h1 {
+  width: 100%;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+}
+.logo {
+  background-image: url("./images/syringe.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 25px;
+  width: 25px;
+  margin-right: 15px;
+}
+
+@media only screen and (max-width: 500px) {
+  .vaidya {
+    height: 100vh;
+    background-color: #fcfdfe;
+    overflow-y: hidden;
+  }
+
+  .vaidyaTop {
+    border-bottom: 1px solid rgb(224, 224, 224);
+    height: 8vh;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+  }
+  .vaidyaBottom {
+    height: 92vh;
+    width: 100% !important;
+  }
+  .vaidyaBottom > iframe {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}

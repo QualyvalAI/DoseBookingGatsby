@@ -1,0 +1,57 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px auto;
+  width: 100%;
+}
+.details {
+  width: 60%;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+input,
+select {
+  width: 60%;
+  padding: 8px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline-width: 0;
+}
+.formDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 80px;
+  margin-top: 40px;
+  color: rgb(0, 68, 85);
+}
+.formDetails> button {
+  margin-right: 30px;
+  margin-top: 30px;
+  cursor: pointer;
+  background-color: rgb(0, 104, 145);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  border-radius: 50px;
+  border: 2px solid rgb(255, 0, 0);
+  padding: 12px 50px;
+  outline-width: 0;
+}
+hr {
+  width: 70%;
+}
+@media only screen and (max-width: 500px) {
+  .formDetails {
+    margin: 10px;
+  }
+  .details{
+      width: 100%;
+  }
+}

@@ -1,0 +1,61 @@
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f100;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(48, 46, 46);
+  border-radius: 50px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.certificate {
+  height: 100vh;
+  background-color: #fcfdfe;
+  overflow-x: hidden;
+  background-color: #fcfdfe;
+}
+
+.certificateTop {
+  border-bottom: 1px solid rgb(224, 224, 224);
+  width: 100%;
+  position: sticky;
+  text-decoration: none !important;
+  color: rgb(32, 32, 32);
+}
+.certificateTop > h1 {
+  width: 100%;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+  color: rgb(0, 68, 85);
+}
+.logo {
+  background-image: url("./images/syringe.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 25px;
+  width: 25px;
+  margin-right: 15px;
+}
+
+@media only screen and (max-width: 500px) {
+  .certificateBottom {
+    margin: 10px;
+  }
+  .details {
+    width: 100%;
+  }
+}
